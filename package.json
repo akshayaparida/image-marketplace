@@ -1,0 +1,22 @@
+{
+    "name": "image-marketplace",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+      "client",
+      "server"
+    ],
+    "scripts": {
+      "dev": "yarn workspace client dev",
+      "build": "yarn workspace client build",
+      "start": "yarn workspace server start"
+    },
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
